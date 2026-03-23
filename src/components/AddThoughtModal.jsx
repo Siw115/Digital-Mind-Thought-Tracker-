@@ -8,6 +8,8 @@ const initialForm = {
   category: "",
   status: "idea",
   iconFile: "",
+  nextAction: "",
+  dueDate: "",
 };
 
 function AddThoughtModal({ isOpen, onClose, onSave, editingThought, categories, copy }) {
@@ -26,6 +28,8 @@ function AddThoughtModal({ isOpen, onClose, onSave, editingThought, categories, 
         category: editingThought.category,
         status: editingThought.status,
         iconFile: editingThought.iconFile || "",
+        nextAction: editingThought.nextAction || "",
+        dueDate: editingThought.dueDate || "",
       });
       setIsAddingCategory(false);
       return;
@@ -73,6 +77,8 @@ function AddThoughtModal({ isOpen, onClose, onSave, editingThought, categories, 
       category: formData.category.trim(),
       status: formData.status,
       iconFile: formData.iconFile,
+      nextAction: formData.nextAction.trim(),
+      dueDate: formData.dueDate,
     };
 
     if (!payload.title || !payload.description || !payload.category) {
@@ -183,6 +189,27 @@ function AddThoughtModal({ isOpen, onClose, onSave, editingThought, categories, 
                 <img src={`${TWEMOJI_BASE_PATH}/${formData.iconFile}`} alt="Selected icon preview" />
               ) : null}
             </div>
+          </div>
+          <div className="modal-form__row">
+            <label htmlFor="thought-next-action">
+              {copy.nextActionLabel}
+              <input
+                id="thought-next-action"
+                type="text"
+                value={formData.nextAction}
+                onChange={(event) => updateField("nextAction", event.target.value)}
+                placeholder={copy.nextActionPlaceholder}
+              />
+            </label>
+            <label htmlFor="thought-due-date">
+              {copy.dueDateLabel}
+              <input
+                id="thought-due-date"
+                type="date"
+                value={formData.dueDate}
+                onChange={(event) => updateField("dueDate", event.target.value)}
+              />
+            </label>
           </div>
           <button type="submit" className="primary-btn">
             {isEditing ? copy.updateThought : copy.saveThought}

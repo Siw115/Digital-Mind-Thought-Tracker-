@@ -5,6 +5,8 @@ export const sampleThoughts = [
     description: "A tiny dashboard that visualizes command usage and shortcuts I should practice.",
     category: "Development",
     status: "idea",
+    nextAction: "List top 5 commands to track and define metrics.",
+    dueDate: "2026-03-29",
     date: "2026-03-20",
   },
   {
@@ -13,6 +15,8 @@ export const sampleThoughts = [
     description: "Create a 4-week routine for reading architecture and design pattern articles.",
     category: "Learning",
     status: "in-progress",
+    nextAction: "Schedule two focused reading blocks for this week.",
+    dueDate: "2026-03-27",
     date: "2026-03-19",
   },
   {
@@ -21,6 +25,8 @@ export const sampleThoughts = [
     description: "Refresh portfolio landing page with cleaner typography and stronger case study cards.",
     category: "Career",
     status: "in-progress",
+    nextAction: "Draft the new hero and one case study section.",
+    dueDate: "2026-03-31",
     date: "2026-03-18",
   },
   {
@@ -29,6 +35,8 @@ export const sampleThoughts = [
     description: "Design a reusable note template for evening reflection and future planning.",
     category: "Personal",
     status: "done",
+    nextAction: "",
+    dueDate: "",
     date: "2026-03-17",
   },
   {
@@ -37,6 +45,8 @@ export const sampleThoughts = [
     description: "Collect and score ten quick ideas with problem statement and target user persona.",
     category: "Ideas",
     status: "idea",
+    nextAction: "Write 10 pain points from indie makers.",
+    dueDate: "2026-04-05",
     date: "2026-03-16",
   },
 ];

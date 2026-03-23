@@ -54,6 +54,8 @@ function createThought(payload) {
     category: payload.category,
     status: payload.status,
     iconFile: payload.iconFile || "",
+    nextAction: payload.nextAction || "",
+    dueDate: payload.dueDate || "",
     date: new Date().toISOString().split("T")[0],
   };
 }
@@ -99,7 +101,8 @@ function App() {
     return thoughts.filter((thought) => {
       const matchesSearch =
         thought.title.toLowerCase().includes(normalizedSearch) ||
-        thought.description.toLowerCase().includes(normalizedSearch);
+        thought.description.toLowerCase().includes(normalizedSearch) ||
+        (thought.nextAction || "").toLowerCase().includes(normalizedSearch);
       const matchesCategory =
         selectedCategory === "all" || thought.category === selectedCategory;
 
@@ -155,6 +158,8 @@ function App() {
             ? {
                 ...item,
                 ...payload,
+                nextAction: payload.nextAction || "",
+                dueDate: payload.dueDate || "",
               }
             : item
         )
@@ -226,14 +231,6 @@ function App() {
     window.localStorage.setItem(storageKey, JSON.stringify(thoughts));
   }, [activeWorkspace, thoughts]);
 
-  const statusSummary = useMemo(() => {
-    return {
-      total: thoughts.length,
-      idea: thoughts.filter((item) => item.status === "idea").length,
-      inProgress: thoughts.filter((item) => item.status === "in-progress").length,
-      done: thoughts.filter((item) => item.status === "done").length,
-    };
-  }, [thoughts]);
   const languageOptions = [
     { value: "en", label: copy.languageEnglish, flagSrc: "/assets/flags/en.svg" },
     { value: "nl", label: copy.languageDutch, flagSrc: "/assets/flags/nl.svg" },
@@ -351,21 +348,6 @@ function App() {
             </div>
           </div>
         </header>
-
-        <section className="stats-bar" aria-label={copy.thoughtSummary}>
-          <p>
-            <strong>{statusSummary.total}</strong> {copy.total}
-          </p>
-          <p>
-            <strong>{statusSummary.idea}</strong> {copy.ideas}
-          </p>
-          <p>
-            <strong>{statusSummary.inProgress}</strong> {copy.inProgress}
-          </p>
-          <p>
-            <strong>{statusSummary.done}</strong> {copy.done}
-          </p>
-        </section>
 
         <section className="controls">
           <SearchBar

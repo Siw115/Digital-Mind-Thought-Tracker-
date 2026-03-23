@@ -228,6 +228,174 @@
   --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23b2d8c0' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
 }
 
+[data-theme="ocean"] {
+  --bg: #08131a;
+  --bg-soft: #112332;
+  --surface: rgba(16, 35, 49, 0.72);
+  --surface-strong: rgba(23, 49, 68, 0.86);
+  --border: rgba(180, 222, 235, 0.25);
+  --text: #ecf8ff;
+  --muted: #b4d3df;
+  --accent: #4ba9c5;
+  --accent-2: #78d2bb;
+  --idea: #a9d8ea;
+  --in-progress: #93d8d9;
+  --done: #8be3be;
+  --shadow-soft: 0 24px 48px rgba(5, 15, 21, 0.52);
+  --shadow-card: 0 18px 34px rgba(5, 15, 21, 0.43);
+  --bg-radial-1: rgba(75, 169, 197, 0.16);
+  --bg-radial-2: rgba(120, 210, 187, 0.15);
+  --bg-linear-end: #070f14;
+  --glow-top: rgba(75, 169, 197, 0.44);
+  --glow-bottom: rgba(120, 210, 187, 0.42);
+  --input-bg: rgba(16, 35, 49, 0.9);
+  --input-bg-focus: rgba(20, 44, 62, 0.98);
+  --placeholder: rgba(180, 211, 223, 0.77);
+  --focus-ring: rgba(75, 169, 197, 0.18);
+  --focus-border: rgba(75, 169, 197, 0.84);
+  --btn-text: #06161d;
+  --btn-shadow: 0 12px 28px rgba(75, 169, 197, 0.3);
+  --btn-shadow-hover: 0 16px 32px rgba(75, 169, 197, 0.35);
+  --ghost-hover-border: rgba(75, 169, 197, 0.56);
+  --card-grad-1: rgba(24, 51, 70, 0.9);
+  --card-grad-2: rgba(14, 30, 42, 0.88);
+  --card-hover-border: rgba(75, 169, 197, 0.36);
+  --card-hover-shadow: 0 22px 38px rgba(5, 15, 21, 0.52);
+  --status-idea-bg: rgba(169, 216, 234, 0.17);
+  --status-progress-bg: rgba(147, 216, 217, 0.17);
+  --status-done-bg: rgba(139, 227, 190, 0.17);
+  --time-color: rgba(180, 211, 223, 0.9);
+  --chip-bg: rgba(19, 40, 55, 0.95);
+  --chip-hover-border: rgba(75, 169, 197, 0.52);
+  --danger-text: #ffe0d6;
+  --danger-border: rgba(214, 145, 126, 0.46);
+  --danger-bg: rgba(65, 38, 32, 0.75);
+  --danger-hover-border: rgba(214, 145, 126, 0.62);
+  --danger-hover-bg: rgba(79, 46, 38, 0.82);
+  --empty-bg: rgba(16, 35, 49, 0.56);
+  --overlay-bg: rgba(6, 15, 21, 0.74);
+  --modal-grad-1: #1a3a50;
+  --modal-grad-2: #112535;
+  --preview-bg: rgba(16, 35, 49, 0.9);
+  --toast-bg: rgba(16, 35, 49, 0.96);
+  --toast-shadow: 0 14px 30px rgba(5, 15, 21, 0.45);
+  --toast-success-border: rgba(139, 227, 190, 0.56);
+  --toast-info-border: rgba(75, 169, 197, 0.58);
+  --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23b4d3df' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="rose"] {
+  --bg: #1a0e12;
+  --bg-soft: #2b1720;
+  --surface: rgba(43, 24, 34, 0.72);
+  --surface-strong: rgba(58, 32, 45, 0.86);
+  --border: rgba(242, 201, 213, 0.24);
+  --text: #fff0f5;
+  --muted: #e4bec9;
+  --accent: #d27a8a;
+  --accent-2: #e0ab7a;
+  --idea: #f4c9d4;
+  --in-progress: #e8b6a7;
+  --done: #cbe49a;
+  --shadow-soft: 0 24px 48px rgba(16, 7, 11, 0.52);
+  --shadow-card: 0 18px 34px rgba(16, 7, 11, 0.43);
+  --bg-radial-1: rgba(210, 122, 138, 0.16);
+  --bg-radial-2: rgba(224, 171, 122, 0.15);
+  --bg-linear-end: #13090d;
+  --glow-top: rgba(210, 122, 138, 0.45);
+  --glow-bottom: rgba(224, 171, 122, 0.42);
+  --input-bg: rgba(43, 24, 34, 0.9);
+  --input-bg-focus: rgba(53, 30, 43, 0.98);
+  --placeholder: rgba(228, 190, 201, 0.77);
+  --focus-ring: rgba(210, 122, 138, 0.18);
+  --focus-border: rgba(210, 122, 138, 0.84);
+  --btn-text: #1f1015;
+  --btn-shadow: 0 12px 28px rgba(210, 122, 138, 0.3);
+  --btn-shadow-hover: 0 16px 32px rgba(210, 122, 138, 0.35);
+  --ghost-hover-border: rgba(210, 122, 138, 0.56);
+  --card-grad-1: rgba(62, 35, 49, 0.9);
+  --card-grad-2: rgba(39, 22, 31, 0.88);
+  --card-hover-border: rgba(210, 122, 138, 0.36);
+  --card-hover-shadow: 0 22px 38px rgba(16, 7, 11, 0.52);
+  --status-idea-bg: rgba(244, 201, 212, 0.17);
+  --status-progress-bg: rgba(232, 182, 167, 0.17);
+  --status-done-bg: rgba(203, 228, 154, 0.17);
+  --time-color: rgba(228, 190, 201, 0.9);
+  --chip-bg: rgba(46, 26, 37, 0.95);
+  --chip-hover-border: rgba(210, 122, 138, 0.52);
+  --danger-text: #ffe1d8;
+  --danger-border: rgba(230, 159, 131, 0.46);
+  --danger-bg: rgba(80, 42, 34, 0.75);
+  --danger-hover-border: rgba(230, 159, 131, 0.62);
+  --danger-hover-bg: rgba(96, 50, 40, 0.82);
+  --empty-bg: rgba(43, 24, 34, 0.56);
+  --overlay-bg: rgba(16, 7, 11, 0.74);
+  --modal-grad-1: #472836;
+  --modal-grad-2: #2d1922;
+  --preview-bg: rgba(43, 24, 34, 0.9);
+  --toast-bg: rgba(43, 24, 34, 0.96);
+  --toast-shadow: 0 14px 30px rgba(16, 7, 11, 0.45);
+  --toast-success-border: rgba(203, 228, 154, 0.56);
+  --toast-info-border: rgba(210, 122, 138, 0.58);
+  --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23e4bec9' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="graphite"] {
+  --bg: #101317;
+  --bg-soft: #1a2129;
+  --surface: rgba(28, 36, 45, 0.72);
+  --surface-strong: rgba(39, 50, 62, 0.86);
+  --border: rgba(187, 203, 219, 0.24);
+  --text: #edf4fb;
+  --muted: #b8c6d4;
+  --accent: #8fa3b8;
+  --accent-2: #7eb3a4;
+  --idea: #c4d1de;
+  --in-progress: #a7c3bc;
+  --done: #b9d5ab;
+  --shadow-soft: 0 24px 48px rgba(7, 10, 13, 0.52);
+  --shadow-card: 0 18px 34px rgba(7, 10, 13, 0.43);
+  --bg-radial-1: rgba(143, 163, 184, 0.16);
+  --bg-radial-2: rgba(126, 179, 164, 0.14);
+  --bg-linear-end: #0b0f13;
+  --glow-top: rgba(143, 163, 184, 0.44);
+  --glow-bottom: rgba(126, 179, 164, 0.42);
+  --input-bg: rgba(28, 36, 45, 0.9);
+  --input-bg-focus: rgba(34, 44, 55, 0.98);
+  --placeholder: rgba(184, 198, 212, 0.76);
+  --focus-ring: rgba(143, 163, 184, 0.18);
+  --focus-border: rgba(143, 163, 184, 0.84);
+  --btn-text: #0e141a;
+  --btn-shadow: 0 12px 28px rgba(143, 163, 184, 0.29);
+  --btn-shadow-hover: 0 16px 32px rgba(143, 163, 184, 0.34);
+  --ghost-hover-border: rgba(143, 163, 184, 0.55);
+  --card-grad-1: rgba(41, 52, 64, 0.9);
+  --card-grad-2: rgba(25, 33, 41, 0.88);
+  --card-hover-border: rgba(143, 163, 184, 0.36);
+  --card-hover-shadow: 0 22px 38px rgba(7, 10, 13, 0.52);
+  --status-idea-bg: rgba(196, 209, 222, 0.17);
+  --status-progress-bg: rgba(167, 195, 188, 0.17);
+  --status-done-bg: rgba(185, 213, 171, 0.17);
+  --time-color: rgba(184, 198, 212, 0.9);
+  --chip-bg: rgba(32, 41, 51, 0.95);
+  --chip-hover-border: rgba(143, 163, 184, 0.52);
+  --danger-text: #ffe0d1;
+  --danger-border: rgba(219, 151, 124, 0.46);
+  --danger-bg: rgba(66, 40, 32, 0.75);
+  --danger-hover-border: rgba(219, 151, 124, 0.62);
+  --danger-hover-bg: rgba(81, 48, 38, 0.82);
+  --empty-bg: rgba(28, 36, 45, 0.56);
+  --overlay-bg: rgba(7, 10, 13, 0.74);
+  --modal-grad-1: #2e3b49;
+  --modal-grad-2: #1d2731;
+  --preview-bg: rgba(28, 36, 45, 0.9);
+  --toast-bg: rgba(28, 36, 45, 0.96);
+  --toast-shadow: 0 14px 30px rgba(7, 10, 13, 0.45);
+  --toast-success-border: rgba(185, 213, 171, 0.56);
+  --toast-info-border: rgba(143, 163, 184, 0.58);
+  --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23b8c6d4' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
 *,
 *::before,
 *::after {
@@ -999,6 +1167,56 @@ textarea::placeholder {
   color: var(--muted);
   line-height: 1.45;
   font-size: 0.98rem;
+}
+
+.thought-card__meta {
+  display: grid;
+  gap: 0.32rem;
+  padding: 0.58rem 0.65rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.thought-card__next-action,
+.thought-card__due-date {
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.thought-card__next-action span,
+.thought-card__due-date span {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.thought-card__due-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.thought-card__due-badge {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.69rem;
+  line-height: 1;
+  padding: 0.22rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.thought-card__due-badge--overdue {
+  color: var(--danger-text);
+  border-color: var(--danger-border);
+  background: var(--danger-bg);
+}
+
+.thought-card__due-badge--today {
+  color: var(--in-progress);
+  border-color: rgba(159, 138, 46, 0.45);
+  background: rgba(159, 138, 46, 0.16);
 }
 
 .thought-card time {
