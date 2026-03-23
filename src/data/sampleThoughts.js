@@ -1,0 +1,42 @@
+export const sampleThoughts = [
+  {
+    id: "th-001",
+    title: "CLI Productivity Dashboard",
+    description: "A tiny dashboard that visualizes command usage and shortcuts I should practice.",
+    category: "Development",
+    status: "idea",
+    date: "2026-03-20",
+  },
+  {
+    id: "th-002",
+    title: "Weekly Learning Sprint",
+    description: "Create a 4-week routine for reading architecture and design pattern articles.",
+    category: "Learning",
+    status: "in-progress",
+    date: "2026-03-19",
+  },
+  {
+    id: "th-003",
+    title: "Portfolio Rewrite",
+    description: "Refresh portfolio landing page with cleaner typography and stronger case study cards.",
+    category: "Career",
+    status: "in-progress",
+    date: "2026-03-18",
+  },
+  {
+    id: "th-004",
+    title: "Mind Dump Template",
+    description: "Design a reusable note template for evening reflection and future planning.",
+    category: "Personal",
+    status: "done",
+    date: "2026-03-17",
+  },
+  {
+    id: "th-005",
+    title: "Micro SaaS Ideas",
+    description: "Collect and score ten quick ideas with problem statement and target user persona.",
+    category: "Ideas",
+    status: "idea",
+    date: "2026-03-16",
+  },
+];

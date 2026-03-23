@@ -1,0 +1,21 @@
+{
+  "pack": "twemoji-subset",
+  "source": "https://github.com/jdecked/twemoji",
+  "license": "CC-BY-4.0",
+  "size": "72x72",
+  "items": [
+    { "id": "rocket", "file": "1f680.png", "emoji": "🚀", "tags": ["launch", "build", "ship"] },
+    { "id": "star", "file": "1f31f.png", "emoji": "🌟", "tags": ["highlight", "favorite"] },
+    { "id": "idea", "file": "1f4a1.png", "emoji": "💡", "tags": ["idea", "insight"] },
+    { "id": "brain", "file": "1f9e0.png", "emoji": "🧠", "tags": ["mind", "thinking"] },
+    { "id": "fire", "file": "1f525.png", "emoji": "🔥", "tags": ["hot", "momentum"] },
+    { "id": "celebrate", "file": "1f389.png", "emoji": "🎉", "tags": ["win", "done"] },
+    { "id": "note", "file": "1f4dd.png", "emoji": "📝", "tags": ["note", "writing"] },
+    { "id": "check", "file": "2705.png", "emoji": "✅", "tags": ["done", "complete"] },
+    { "id": "target", "file": "1f3af.png", "emoji": "🎯", "tags": ["goal", "focus"] },
+    { "id": "design", "file": "1f3a8.png", "emoji": "🎨", "tags": ["design", "creative"] },
+    { "id": "robot", "file": "1f916.png", "emoji": "🤖", "tags": ["automation", "ai"] },
+    { "id": "strong", "file": "1f4aa.png", "emoji": "💪", "tags": ["effort", "progress"] }
+  ]
+}
+
