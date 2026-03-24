@@ -8,6 +8,7 @@ import FancySelect from "./components/FancySelect";
 import { sampleThoughts } from "./data/sampleThoughts";
 import { themeOptions } from "./data/themes";
 import { translations } from "./i18n/translations";
+import meImage from "./assets/me.png";
 
 const ACTIVE_USER_STORAGE_KEY = "digital-mind.active-user";
 const THOUGHTS_STORAGE_PREFIX = "digital-mind.thoughts";
@@ -341,6 +342,13 @@ function App() {
             <p className="hero__kicker">Digital Mind</p>
             <h1>Thought Tracker</h1>
             <p className="hero__subtitle">{copy.heroSubtitle}</p>
+            <p className="hero__creator">
+              <img className="hero__creator-avatar" src={meImage} alt="Creator profile" />
+              {copy.creatorLabel}{" "}
+              <a href="https://github.com/Siw115" target="_blank" rel="noreferrer">
+                @Siw115
+              </a>
+            </p>
             <div className="hero__actions">
               <button type="button" className="primary-btn" onClick={handleOpenCreateModal}>
                 {copy.newThought}
