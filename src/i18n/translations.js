@@ -2,6 +2,7 @@ export const translations = {
   en: {
     locale: "en-US",
     heroSubtitle: "Capture thoughts, notes, and ideas in a calm, focused workspace.",
+    creatorLabel: "Created by",
     newThought: "+ New Thought",
     profileSelectorLabel: "Profile selector",
     profileName: "Your profile name",
@@ -70,6 +71,7 @@ export const translations = {
   nl: {
     locale: "nl-NL",
     heroSubtitle: "Leg gedachten, notities en ideeen vast in een rustige, gefocuste workspace.",
+    creatorLabel: "Gemaakt door",
     newThought: "+ Nieuwe Thought",
     profileSelectorLabel: "Profielkiezer",
     profileName: "Jouw profielnaam",

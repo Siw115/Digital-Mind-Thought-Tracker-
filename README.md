@@ -4,6 +4,10 @@ A modern thought tracker built with React + Vite.
 
 The app helps you capture and organize thoughts, ideas, notes, and tasks in a calm, dark, card-based workspace with Kanban flow.
 
+## Creator
+
+- GitHub: [@Siw115](https://github.com/Siw115)
+
 ## Features
 
 - Kanban board with status columns:
